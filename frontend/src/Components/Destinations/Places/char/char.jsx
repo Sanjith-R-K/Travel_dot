@@ -16,7 +16,6 @@ import {MdModeOfTravel} from 'react-icons/md'
 import {IoFastFoodOutline} from 'react-icons/io5'
 
 import 'aos/dist/aos.css'
-import img from '../../../../Assests/bg1.jpg'
 import Navbar from '../../../Navbar1/Navbar'
 import Footer from '../../../Footer/Footer'
 import '../../../Popular/popular.css'

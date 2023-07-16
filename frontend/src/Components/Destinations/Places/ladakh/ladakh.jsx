@@ -3,11 +3,9 @@ import './ladakh.css'
 import { Link } from 'react-router-dom'
 import '../../../Navbar/navbar.css'
 import '../../../Home/home.css'
-//import {BsArrowRightShort} from 'react-icons/bs'
 import {MdKingBed} from 'react-icons/md'
 import {MdBathtub} from 'react-icons/md'
 import {FaWifi} from 'react-icons/fa'
-//import {MdAirportShuttle} from 'react-icons/md'
 import {MdLocationOn} from 'react-icons/md'
 import {BsDot} from 'react-icons/bs'
 
@@ -16,11 +14,7 @@ import {GiDuration} from 'react-icons/gi'
 import {MdModeOfTravel} from 'react-icons/md'
 import {IoFastFoodOutline} from 'react-icons/io5'
 
-
-
-//import Aos from 'aos'
 import 'aos/dist/aos.css'
-import img from '../../../../Assests/bg1.jpg'
 import Navbar from '../../../Navbar1/Navbar'
 import Footer from '../../../Footer/Footer'
 import '../../../Popular/popular.css'

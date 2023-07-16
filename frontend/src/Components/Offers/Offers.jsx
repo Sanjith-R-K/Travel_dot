@@ -8,7 +8,6 @@ import { MdModeOfTravel } from 'react-icons/md';
 import { MdLocationOn } from 'react-icons/md';
 import { BsArrowRightShort } from 'react-icons/bs';
 
-import img from '../../Assests/bg1.jpg';
 import img1 from '../../Assests/HI/q6.jpg';
 import img2 from '../../Assests/HI/q7.jpg';
 import img3 from '../../Assests/HI/q8.jpg';

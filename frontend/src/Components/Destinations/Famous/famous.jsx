@@ -109,10 +109,6 @@ const famous = () => {
           <p data-aos="fade-up" data-aos-duration="2500" className="subTitle">
             Travel to your favourite city with respectful of the environment!
           </p>
-{/* 
-          <button data-aos="fade-up" data-aos-duration="3000" className="btn">
-            <a href="#">Explore Now</a>
-          </button> */}
         </div>
       </div>
     </section>

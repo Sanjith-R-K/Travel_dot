@@ -70,7 +70,6 @@ const Signup = () => {
       <div className="form-group">
       <div className="locationDiv">
               <label htmlFor="location">Source</label>
-              {/* <input id="src" type="text" placeholder="Source" required /> */}
               <div class="select">
                 <select id="src" name='location'>
                   <option value="">Source</option>
@@ -94,13 +93,10 @@ const Signup = () => {
                 <span class="focus"></span>
               </div>
             </div>
-        {/* <label htmlFor="src">Source</label>
-        <input type="text" id="last-name" name="src" placeholder='Source'  required onChange={(e)=>setSrc(e.target.value)}  /> */}
       </div>
       <div className="form-group">
         <div className="distDiv">
               <label htmlFor="distance">Destination</label>
-              {/* <input id="des" type="text" placeholder="Dream Destination" required /> */}
               <div class="select">
                 <select id="des" name='distance'>
                   <option value="">Destination</option>
@@ -125,8 +121,6 @@ const Signup = () => {
                 <span class="focus"></span>
               </div>
               </div>
-        {/* <label htmlFor="des">Destination</label>
-        <input type="text" id="city" name="des" placeholder='Your Dream Destination'  required onChange={(e)=>setDes(e.target.value)}  /> */}
       </div>
       <div className="form-group">
         <label htmlFor="email1">Email</label>
@@ -167,15 +161,6 @@ const Signup = () => {
           <option value="5">5</option>
         </select>
       </div>
-      {/* <div className="form-group">
-        <label htmlFor="gender">Gender</label>
-        <select id="state" name="gender" required  onChange={(e)=>setGender(e.target.value)} >
-          <option value="">Select Gender</option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-          <option value="other">Other</option>
-        </select>
-      </div> */}
       <button type='submit' className='btn btn-success w-100 rounded-0'>Book</button>
       {errorMessage && <div style={{ marginBottom: '10px', color: 'red' }}>{errorMessage}</div>}
       {showPopup && (

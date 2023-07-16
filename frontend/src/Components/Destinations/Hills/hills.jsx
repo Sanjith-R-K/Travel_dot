@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom'
 import '../../Navbar/navbar.css'
 import {BsArrowRightShort} from 'react-icons/bs'
 import {BsDot} from 'react-icons/bs'
-import Aos from 'aos'
 import 'aos/dist/aos.css'
-/* import img from '../../../Assests/bg1.jpg' */
 import Navbar from '../../Navbar1/Navbar'
 import Footer from '../../Footer/Footer'
 import '../../Popular/popular.css'
@@ -113,10 +111,6 @@ const hills = () => {
           <p data-aos="fade-up" data-aos-duration="2500" className="subTitle">
             Travel to your favourite city with respectful of the environment!
           </p>
-{/* 
-          <button data-aos="fade-up" data-aos-duration="3000" className="btn">
-            <a href="#">Explore Now</a>
-          </button> */}
         </div>
       </div>
     </section>

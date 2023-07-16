@@ -29,29 +29,6 @@ const Home = () => {
           </button>
         </div>
 
-        {/* <div className="homeCard grid">
-
-            <div data-aos="fade-right" data-aos-duration="2000" className="locationDiv">
-              <label htmlFor="location">Location</label>
-              <input type="text" placeholder='Dream Destination' />
-            </div>
-
-            <div data-aos="fade-right" data-aos-duration="2500" className="distDiv">
-              <label htmlFor="distance">Location</label>
-              <input type="text" placeholder='11/Meters' />
-            </div>
-
-            <div data-aos="fade-right" data-aos-duration="3000" className="priceDiv">
-              <label htmlFor="price">Location</label>
-              <input type="text" placeholder='&#8377;1599 - &#8377;2599' />
-            </div>
-
-            <button data-aos="fade-left" data-aos-duration="2000" className="btn">
-              Search
-            </button>
-
-        </div> */}
-
 
       </div>
     </section>

@@ -12,7 +12,7 @@ import img1 from '../../../Assests/Taj/q1.jpg'
 import img2 from '../../../Assests/RD/w4.jpg'
 import img3 from '../../../Assests/Gateway/e5.jpg'
 import img4 from '../../../Assests/ladak/l8.webp'
-import img5 from '../../../Assests/Charminar/c2.jpg
+import img5 from '../../../Assests/Charminar/c2.jpg'
 import img7 from '../../../Assests/Munnar/m2.jpg'
 import img8 from '../../../Assests/mysuru/my12.jpg'
 import img9 from '../../../Assests/Baga/b8.jpg'

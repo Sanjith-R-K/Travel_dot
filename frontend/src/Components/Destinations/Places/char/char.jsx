@@ -3,14 +3,11 @@ import './char.css'
 import { Link } from 'react-router-dom'
 import '../../../Navbar/navbar.css'
 import '../../../Home/home.css'
-//import {BsArrowRightShort} from 'react-icons/bs'
 import {MdKingBed} from 'react-icons/md'
 import {MdBathtub} from 'react-icons/md'
 import {FaWifi} from 'react-icons/fa'
-//import {MdAirportShuttle} from 'react-icons/md'
 import {MdLocationOn} from 'react-icons/md'
 import {BsDot} from 'react-icons/bs'
-//import Aos from 'aos'
 
 
 import {BsPersonFill} from 'react-icons/bs'
@@ -207,21 +204,7 @@ const char = () => {
         duration: "14min",
         per: 4,
         tag:"https://goo.gl/maps/gmPcCAA3RQ6RFA6M8"
-      },
-    
-      /* {
-        id:4,
-        imgSrc:img,
-        hname: 'Machu Picchu',
-        location: 'Peru',
-        price: '2999',
-        bed: 2,
-        food: 24,
-        dis: "500meter",
-        duration: "10mins",
-        per: 4,
-        tag:""
-      } */
+      }
     ]
 
 

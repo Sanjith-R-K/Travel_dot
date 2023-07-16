@@ -6,58 +6,19 @@ import '../Popular/popular.css'
 import '../../app.css'
 import {BsArrowRightShort} from 'react-icons/bs'
 import {BsDot} from 'react-icons/bs'
-import {SiYourtraveldottv} from 'react-icons/si'
-import {AiFillCloseCircle} from 'react-icons/ai'
-import {TbGridDots} from 'react-icons/tb'
-import {ImFacebook} from 'react-icons/im'
-import {BsTwitter} from 'react-icons/bs'
-import {AiFillInstagram} from 'react-icons/ai'
 import Navbar from '../Navbar1/Navbar'
-import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { Link } from 'react-router-dom'
-import img from '../../Assests/bg1.jpg'
 
 import img1 from '../../Assests/Kd/k3.jpg'
 import img2 from '../../Assests/Kd/k4.jpg'
 import img3 from '../../Assests/Kd/k5.webp'
 import img4 from '../../Assests/Kd/k6.jpg'
 import img5 from '../../Assests/Kd/k2.jpg'
-import img6 from '../../Assests/Kd/k7.webp'
 import Footer from '../Footer/Footer'
 
 
 const Destiny = () => {
-
-  const [active, setActive] = useState('navBar')
-  const showNav =()=>{
-    setActive('navBar activeNavbar')
-  }
-
-  //code to remove Navbar
-  const removeNav =()=>{
-    setActive('navBar')
-  }
-
-  useEffect(()=>{
-    Aos.init({duration:2000})
-  })
-
-
-
-  const [transparent, setTransparent] = useState('header')
-  const addBg = ()=>{
-    if(window.scrollY >=10){
-      setTransparent('header activeHeader')
-    }
-    else{
-      setTransparent('header')
-    }
-  }
-  window.addEventListener('scroll', addBg)
-
-
-
 
   const Data = [
     {
@@ -103,14 +64,6 @@ const Destiny = () => {
   ]
 
 
-
-
-
-
-
-
-
-
   return (
     <>
     <Navbar />
@@ -127,9 +80,6 @@ const Destiny = () => {
             Travel to your favourite city with respectful of the environment!
           </p>
 
-          {/* <button data-aos="fade-up" data-aos-duration="3000" className="btn">
-            <a href="#">Explore Now</a>
-          </button> */}
         </div>
       </div>
     </section>

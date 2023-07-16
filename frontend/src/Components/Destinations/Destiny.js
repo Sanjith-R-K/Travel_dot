@@ -110,7 +110,7 @@ const Destiny = () => {
               return(
                 <div className="singleDestination">
                   <div className="destImage">
-                    <img src={imgSrc} alt="Image title" />
+                    <img src={imgSrc} alt="title" />
 
                     <div className="overlayInfo">
                       <h3>{location}</h3>

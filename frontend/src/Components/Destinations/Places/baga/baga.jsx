@@ -2,14 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../../Navbar/navbar.css'
 import '../../../Home/home.css'
-//import {BsArrowRightShort} from 'react-icons/bs'
 import {MdKingBed} from 'react-icons/md'
 import {MdBathtub} from 'react-icons/md'
 import {FaWifi} from 'react-icons/fa'
-//import {MdAirportShuttle} from 'react-icons/md'
 import {MdLocationOn} from 'react-icons/md'
 import {BsDot} from 'react-icons/bs'
-//import Aos from 'aos'
 import 'aos/dist/aos.css'
 import img from '../../../../Assests/bg1.jpg'
 import Navbar from '../../../Navbar1/Navbar'
@@ -207,21 +204,7 @@ const baga = () => {
         duration: "10mins",
         per: 4,
         tag:"https://goo.gl/maps/xdxztuoCsZ9CcPTY6"
-      },
-    
-      /* {
-        id:4,
-        imgSrc:img,
-        hname: 'Machu Picchu',
-        location: 'Goa',
-        price: '2999',
-        bed: 2,
-        food: 24,
-        dis: "500meter",
-        duration: "10mins",
-        per: 4,
-        tag:""
-      } */
+      }
     ]
 
 

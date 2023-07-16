@@ -4,8 +4,6 @@ import './popular.css'
 import {BsArrowRightShort} from 'react-icons/bs'
 import {BsDot} from 'react-icons/bs'
 
-import img from '../../Assests/bg1.jpg'
-
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -75,7 +73,6 @@ const Popular = () => {
           </div>
 
           <div data-aos="fade-left" data-aos-duration="2500" className="iconsDiv flex">
-            {/* <BsArrowLeftShort className="icon leftIcon"/> */}
             <Link to='/destiny'>
             <button class="cssbuttons-io-button"> View all <div class="icon">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="#f67009" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
@@ -83,10 +80,6 @@ const Popular = () => {
             </button>
             </Link>
 
-
-            {/* <button className="btn">
-            <pre>view all <BiRightArrowCircle className=""/></pre>
-            </button> */}
           </div>
         </div>
 
